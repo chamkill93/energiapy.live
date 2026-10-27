@@ -1,0 +1,14 @@
+﻿code,name,country,authority_class,base_url,scope
+ANDE,Administracion Nacional de Electricidad,PY,OFFICIAL_PRIMARY,https://www.ande.gov.py/,"SIN Paraguay, Acaray, balance, demanda, consumo, perdidas, tarifas, red, exportaciones ANDE"
+ITAIPU,Itaipu Binacional,PY/BR,OFFICIAL_PRIMARY,https://www.itaipu.gov.py/,"Generacion Itaipu, suministro, Anexo C, royalties, cesion, facturacion"
+EBY,Entidad Binacional Yacyreta,PY/AR,OFFICIAL_PRIMARY,https://www.eby.gov.py/,"Generacion Yacyreta, entregas SINP/SADI, acuerdos operativos, cesion"
+ONS,Operador Nacional do Sistema Eletrico,BR,OFFICIAL_PRIMARY,https://dados.ons.org.br/,"Itaipu horario, intercambio internacional, carga Brasil"
+CAMMESA,Compania Administradora del Mercado Mayorista Electrico,AR,OFFICIAL_PRIMARY,https://cammesaweb.cammesa.com/,"SADI, flujos, variables relevantes, API REST/JSON"
+BACN,Biblioteca y Archivo Central del Congreso Nacional,PY,OFFICIAL_LEGAL,https://www.bacn.gov.py/,"Tratados y leyes de Itaipu/Yacyreta, terminos economicos"
+MEF,Ministerio de Economia y Finanzas,PY,OFFICIAL_PRIMARY,https://www.mef.gov.py/,"Transferencias binacionales, royalties, compensaciones"
+ABC,ABC Color,PY,PRESS_SECONDARY,https://www.abc.com.py/,"Referencias de mercado, precios derivados, contexto comercial"
+BCP,Banco Central del Paraguay,PY,OFFICIAL_PRIMARY,https://www.bcp.gov.py/,"Tipo de cambio, IPC e indicadores macroeconomicos para normalizacion economica."
+WDI_IMF,World Development Indicators / IMF IFS,INTL,OFFICIAL_INTL_SECONDARY,https://data.worldbank.org/,Backfill y control cruzado de IPC y tipo de cambio anual; BCP sigue siendo la fuente primaria nacional.
+NOAA_CPC,NOAA Climate Prediction Center,climate/ENSO,HTML data tables,active,Official ENSO RONI probabilities and strengths
+DMH,Direccion de Meteorologia e Hidrologia Paraguay,weather/hydrology,HTML data tables,active-orientative,Public automatic-station values; orientative status
+INE,Instituto Nacional de Estadistica Paraguay,household/demographic,PDF/microdata,active,Census and EPHC

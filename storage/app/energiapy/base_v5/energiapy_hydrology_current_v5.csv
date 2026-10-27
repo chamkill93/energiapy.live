@@ -1,0 +1,8 @@
+﻿observed_at,asset,variable,value,unit,source_code,quality_class,source_url,notes
+2026-09-11,YACYRETA,POWER_LAST_HOUR,2034,MW,EBY,OFFICIAL_WEB_CURRENT,https://eby.gov.py/,Exact measurement timestamp not exposed by homepage.
+2026-09-10 06:00,YACYRETA,RESERVOIR_LEVEL,82.82,mSNM,EBY,OFFICIAL_MEASURED,https://eby.gov.py/cota-82-82-msnm-resumen-ejecutivo-n-6077-10-09-2026/,
+2026-09-10,YACYRETA,INFLOW_FORECAST_TODAY,13400,m3/s,EBY,OFFICIAL_FORECAST,https://eby.gov.py/cota-82-82-msnm-resumen-ejecutivo-n-6077-10-09-2026/,
+2026-09-11,YACYRETA,INFLOW_FORECAST_NEXT_DAY,14500,m3/s,EBY,OFFICIAL_FORECAST,https://eby.gov.py/cota-82-82-msnm-resumen-ejecutivo-n-6077-10-09-2026/,
+2026-09-10,YACYRETA,ANACUA_FLOW,1000,m3/s,EBY,OFFICIAL_OPERATIONAL,https://eby.gov.py/cota-82-82-msnm-resumen-ejecutivo-n-6077-10-09-2026/,
+2026-09-10,AYOLAS,RIVER_LEVEL,1.8,m,EBY,OFFICIAL_MEASURED,https://eby.gov.py/cota-82-82-msnm-resumen-ejecutivo-n-6077-10-09-2026/,
+2026-09-10 02:00,ITUZAINGO,RIVER_LEVEL,1.6,m,EBY,OFFICIAL_MEASURED,https://eby.gov.py/cota-82-82-msnm-resumen-ejecutivo-n-6077-10-09-2026/,

@@ -1,0 +1,222 @@
+{
+  "generated_at": "2026-09-11",
+  "timezone_storage": "UTC",
+  "timezone_display": "America/Asuncion",
+  "rules": [
+    "Never claim real time when source cadence is slower",
+    "Preserve source URL and timestamps",
+    "Do not overwrite last good observation when parser fails",
+    "Respect robots/terms and rate limits"
+  ],
+  "sources": [
+    {
+      "code": "AGENCIA_IP_ANDE",
+      "authority": "OFFICIAL_ORIENTATIVE",
+      "country": "PY",
+      "kind": "public_government_news_api",
+      "grain": "month",
+      "url": "https://www.ip.gov.py/ip/wp-json/wp/v2/posts?search=Acaray%20consumo&per_page=30&_fields=id,date,link,title,content",
+      "license": "Ver términos de Agencia IP",
+      "use": "Publicaciones de Agencia IP que atribuyen datos mensuales de consumo y Acaray a ANDE; no son mediciones en vivo."
+    },
+    {
+      "code": "ONS_ITAIPU_HOURLY",
+      "authority": "OFFICIAL_PRIMARY",
+      "country": "BR",
+      "kind": "bulk_csv",
+      "grain": "hourly",
+      "refresh_hint": "dataset updated twice daily",
+      "catalog": "https://dados.ons.org.br/dataset/geracao_itaipu",
+      "url": "https://ons-aws-prod-opendata.s3.amazonaws.com/dataset/geracao_itaipu/GERACAO_ITAIPU.csv",
+      "dictionary": "https://ons-aws-prod-opendata.s3.amazonaws.com/dataset/geracao_itaipu/DicionarioDados_Geracao_Itaipu_Binacional.json",
+      "license": "CC-BY",
+      "use": "Itaipu total/50Hz/60Hz and service to Paraguay/Brazil"
+    },
+    {
+      "code": "ONS_INTL_2026",
+      "authority": "OFFICIAL_PRIMARY",
+      "country": "BR",
+      "kind": "bulk_csv",
+      "grain": "hourly",
+      "refresh_hint": "dataset updated twice daily",
+      "catalog": "https://dados.ons.org.br/dataset/intercambio-internacional",
+      "url": "https://ons-aws-prod-opendata.s3.amazonaws.com/dataset/intercambio_internacional_ho/INTERCAMBIO_INTERNACIONAL_2026.csv",
+      "dictionary": "https://ons-aws-prod-opendata.s3.amazonaws.com/dataset/intercambio_internacional_ho/DicionarioDados_Intercambio_Internacional.json",
+      "license": "CC-BY",
+      "use": "International interchange; Paraguay exchange via Acaray converter"
+    },
+    {
+      "code": "EBY_CURRENT_POWER",
+      "authority": "OFFICIAL_PRIMARY",
+      "country": "PY/AR",
+      "kind": "html_scrape",
+      "grain": "last_hour_label",
+      "refresh_hint": "hourly-ish; exact measurement timestamp not exposed",
+      "url": "https://eby.gov.py/",
+      "selector_strategy": "Find numeric text adjacent to 'de potencia generada en la última hora'",
+      "use": "Yacyreta current published power",
+      "caveat": "Do not invent measured_at; store page fetch time separately"
+    },
+    {
+      "code": "EBY_HYDRO_DAILY",
+      "authority": "OFFICIAL_PRIMARY",
+      "country": "PY/AR",
+      "kind": "html_scrape",
+      "grain": "daily",
+      "url": "https://www.eby.gov.py/category/nivelembalse/",
+      "latest_example": "https://eby.gov.py/cota-82-82-msnm-resumen-ejecutivo-n-6077-10-09-2026/",
+      "selector_strategy": "Parse latest post title and paragraphs for level and forecast inflow",
+      "use": "Yacyreta reservoir level and inflow forecast"
+    },
+    {
+      "code": "DMH_EMAS",
+      "authority": "OFFICIAL_ORIENTATIVE",
+      "country": "PY",
+      "kind": "json",
+      "grain": "about_3min_feed",
+      "url": "https://www.meteorologia.gov.py/emas/data.json",
+      "landing": "https://www.meteorologia.gov.py/emas/",
+      "use": "Temperature, humidity, pressure, rain, wind, UV, radiation, station metadata",
+      "caveat": "DMH public page says information is orientative, not certified official documentation"
+    },
+    {
+      "code": "DMH_RIVER_LEVELS",
+      "authority": "OFFICIAL_ORIENTATIVE",
+      "country": "PY",
+      "kind": "html_scrape",
+      "grain": "10min_claimed",
+      "url": "https://www.meteorologia.gov.py/nivel-rio/indexautomatica.php",
+      "use": "Automatic river levels",
+      "caveat": "Keep per-station observed date; some stations can be stale"
+    },
+    {
+      "code": "DMH_PRECIP",
+      "authority": "OFFICIAL_ORIENTATIVE",
+      "country": "PY",
+      "kind": "html_scrape",
+      "grain": "10min_measurement",
+      "url": "https://www.meteorologia.gov.py/precipitacion-automatica/",
+      "monthly": "https://www.meteorologia.gov.py/precipitacion-automatica/acumulada.php",
+      "use": "Daily/monthly station precipitation"
+    },
+    {
+      "code": "ITAIPU_YRATO",
+      "authority": "OFFICIAL_RESEARCH",
+      "country": "PY/BR",
+      "kind": "rest_services",
+      "grain": "multi",
+      "url": "https://hidroinformatica.itaipu.gov.py/yrato/",
+      "docs": "https://hidroinformatica.itaipu.gov.py/docs/",
+      "service_patterns": [
+        "/services/precipitacion/<fecha>/<fechasig>/",
+        "/services/precipitaciondepto/<fecha>/<fechasig>/<depto>/",
+        "/services/precipitaciondisto/<fecha>/<fechasig>/<disto>/",
+        "/services/precipitacioncuenca/<fecha>/<fechasig>/<cuenca>/"
+      ],
+      "use": "Hydrology/precipitation/forecast context",
+      "caveat": "Research application; validate each service contract before production"
+    },
+    {
+      "code": "ITAIPU_MONTHLY",
+      "authority": "OFFICIAL_PRIMARY",
+      "country": "PY/BR",
+      "kind": "news_report",
+      "grain": "monthly_ytd",
+      "url": "https://www.itaipu.gov.py/noticias/energia/itaipu-suministro-19-276-gwh-de-energia-electrica-a-la-ande-de-enero-a-agosto-de-2026",
+      "use": "Official monthly/YTD generation and supply context",
+      "caveat": "Not a real-time feed"
+    },
+    {
+      "code": "ANDE_TARIFF",
+      "authority": "OFFICIAL_PRIMARY",
+      "country": "PY",
+      "kind": "html_documents",
+      "grain": "regulatory",
+      "url": "https://www.ande.gov.py/tarifas_vigentes.php",
+      "use": "Current tariff documents"
+    },
+    {
+      "code": "ANDE_MASTER_PLAN",
+      "authority": "OFFICIAL_PRIMARY",
+      "country": "PY",
+      "kind": "html_documents",
+      "grain": "planning",
+      "url": "https://www.ande.gov.py/plan_maestro.php",
+      "use": "Generation/transmission/distribution planning baselines"
+    },
+    {
+      "code": "ANDE_PUBLIC_STATS",
+      "authority": "OFFICIAL_PRIMARY",
+      "country": "PY",
+      "kind": "reports_news",
+      "grain": "monthly_annual",
+      "base": "https://www.ande.gov.py/",
+      "use": "SIN consumption, peak demand, supply by source, losses and network"
+    },
+    {
+      "code": "BCP_FX_DAILY",
+      "authority": "OFFICIAL_PRIMARY",
+      "country": "PY",
+      "kind": "html_table",
+      "grain": "daily",
+      "url": "https://www.bcp.gov.py/webapps/web/cotizacion/monedas",
+      "use": "PYG reference exchange rates"
+    },
+    {
+      "code": "BCP_IMAEP",
+      "authority": "OFFICIAL_PRIMARY",
+      "country": "PY",
+      "kind": "reports",
+      "grain": "monthly",
+      "url": "https://www.bcp.gov.py/es/web/institucional/indicador-mensual-de-actividad-economica-del-paraguay-imaep",
+      "use": "Economic activity context"
+    },
+    {
+      "code": "INE_GIS_2022",
+      "authority": "OFFICIAL_PRIMARY",
+      "country": "PY",
+      "kind": "download_portal",
+      "grain": "static",
+      "url": "https://www.ine.gov.py/microdatos/cartografia-digital-2022.php",
+      "use": "Departments, districts, neighborhoods/localities, cities, blocks, roads, hydrography, indigenous communities; SHP/KML/GeoJSON",
+      "license": "Paraguay public information license"
+    },
+    {
+      "code": "NOAA_ENSO_PROB",
+      "authority": "OFFICIAL_INTL",
+      "country": "INTL",
+      "kind": "html_table",
+      "grain": "monthly_issue",
+      "url": "https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/",
+      "use": "Official ENSO probabilities"
+    },
+    {
+      "code": "NOAA_ENSO_OUTLOOK",
+      "authority": "OFFICIAL_INTL",
+      "country": "INTL",
+      "kind": "html_table",
+      "grain": "monthly_issue",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/outlook/",
+      "use": "RONI probabilistic outlook"
+    },
+    {
+      "code": "CAMMESA_API_DOCS",
+      "authority": "OFFICIAL_PRIMARY",
+      "country": "AR",
+      "kind": "api_docs",
+      "grain": "varies",
+      "url": "https://cammesaweb.cammesa.com/apiweb/",
+      "use": "REST/JSON integration; map exact publications before enabling",
+      "caveat": "Some resources may require agent access/credentials"
+    },
+    {
+      "code": "CAMMESA_VARIABLES",
+      "authority": "OFFICIAL_PRIMARY",
+      "country": "AR",
+      "kind": "download_portal",
+      "grain": "monthly",
+      "url": "https://cammesaweb.cammesa.com/variables-relevantes-mem/",
+      "use": "Backfill of MEM relevant variables"
+    }
+  ]
+}

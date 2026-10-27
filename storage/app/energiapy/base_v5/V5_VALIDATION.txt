@@ -1,0 +1,18 @@
+EnergiaPY V5 validation
+{
+  "measurements": 1524,
+  "canonical_measurements": 1406,
+  "current_baselines": 66,
+  "ande_customers_2025": 13,
+  "hydrology_current": 7,
+  "enso_outlook": 9,
+  "climate_station_snapshot": 38,
+  "household_context": 23,
+  "imaep_current": 12,
+  "grid_quality_current": 6
+}
+No literal Excel formula errors detected.
+Workbook sheets: 36
+New canonical baseline observations: 66
+Weather stations captured: 38
+ONS official bulk URLs verified but binary retrieval failed in this execution runtime; no synthetic hourly data inserted.

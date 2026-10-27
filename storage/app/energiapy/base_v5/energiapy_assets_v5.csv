@@ -1,0 +1,19 @@
+﻿code,name,type,country,lat,lon,notes
+PY_SIN,Sistema Interconectado Nacional Paraguay,system,PY,,,Sistema nacional paraguayo
+ITAIPU,Itaipu Binacional,hydro_plant,PY/BR,-25.407,-54.588,Coordenada de referencia; validar con capa GIS oficial antes de produccion
+YACYRETA,Central Hidroelectrica Yacyreta,hydro_plant,PY/AR,-27.482,-56.738,Coordenada de referencia; validar con capa GIS oficial
+ACARAY,Central Hidroelectrica Acaray,hydro_plant,PY,-25.455,-54.632,Coordenada de referencia; validar con capa GIS oficial
+SADI,Sistema Argentino de Interconexion,system,AR,,,Sistema argentino
+BR_SIN,Sistema Interligado Nacional Brasil,system,BR,,,Sistema brasileño
+ENARSA,Energia Argentina S.A. (ENARSA),counterparty,AR,,,Comprador/exportacion ANDE
+COPEL,COPEL,counterparty,BR,,,Interconexion historica Acaray-Foz desde 1969
+SMD_ITAIPU,Subestacion Margen Derecha Itaipu,substation,PY,,,Nodo previsto para ventas al ACL Brasil
+ACARAY_CONVERTER,Conversora/Interconexion Acaray,interconnection,PY/BR,,,Intercambio internacional Paraguay-Brasil
+SOLAR_PTO_ESPERANZA,Planta Fotovoltaica Puerto Esperanza,solar_plant,PY,,,GIS oficial pendiente
+PY_GRID,Paraguay electricity grid,grid,PY,,,National grid/quality aggregate asset
+PY_GRID_METRO,Metropolitan electricity system,grid_region,PY,,,Metropolitan quality scope
+PY_ECONOMY,Paraguay economy,macro,PY,,,Macro feature namespace
+PY_HOUSEHOLDS,Paraguay households,population,PY,,,Household/citizenship feature namespace
+PY_CLIMATE,Paraguay climate,climate,PY,,,Climate feature namespace
+AYOLAS,Ayolas river gauge/port,hydrology_gauge,PY,,,Reference gauge in EBY operational reports
+ITUZAINGO,Ituzaingo river gauge/port,hydrology_gauge,AR,,,Reference gauge in EBY operational reports

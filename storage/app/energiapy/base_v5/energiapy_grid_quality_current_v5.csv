@@ -1,0 +1,7 @@
+﻿period,metric,value,unit,scope,source_code,quality_class,source_url,notes
+2025,TOTAL_LOSS_RATE,24.4,percent,National,ANDE,OFFICIAL_AGGREGATE,https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf,Canonical annual BAGP; separate news release rounds it to 24.5%.
+2025,TOTAL_LOSS_RATE_ROUNDED_RELEASE,24.5,percent,National,ANDE,OFFICIAL_RELEASE_ROUNDED,https://www.ande.gov.py/interna.php?id=15116,Rounded release; do not supersede BAGP 24.40%.
+2025,DISTRIBUTION_LOSS_RATE,20.03,percent,National distribution,ANDE,OFFICIAL_RELEASE,https://www.ande.gov.py/interna.php?id=15116,
+2024/25 summer,DEP,2.44,hours,Metropolitan system,ANDE,OFFICIAL_RELEASE,https://www.ande.gov.py/interna.php?id=13680,Down from 5.44 h previous summer.
+2024/25 summer,FEP,3.79,interruptions_equivalent,Metropolitan system,ANDE,OFFICIAL_RELEASE,https://www.ande.gov.py/interna.php?id=13680,Down from 6.33 previous summer.
+2028,DISTRIBUTION_LOSS_TARGET,15.0,percent,National distribution,ANDE,OFFICIAL_PLAN,https://www.ande.gov.py/interna.php?id=15116,"Target, not actual."

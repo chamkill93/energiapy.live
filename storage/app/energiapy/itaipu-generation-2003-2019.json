@@ -1,0 +1,22 @@
+{
+  "description": "Transcripción manual contrastada con la tabla de producción anual y memorias oficiales de Itaipú. Valores en GWh enteros, salvo 2011.",
+  "reviewed_at": "2026-10-27",
+  "reports": [
+    {"year":2003,"gwh":89151,"url":"https://itaipu.gov.br/wp-content/uploads/2024/12/RS-2014-Port-2.pdf","page":17},
+    {"year":2004,"gwh":89912,"url":"https://itaipu.gov.br/wp-content/uploads/2024/12/RS-2014-Port-2.pdf","page":17},
+    {"year":2005,"gwh":87971,"url":"https://itaipu.gov.br/wp-content/uploads/2024/12/RS-2014-Port-2.pdf","page":17},
+    {"year":2006,"gwh":92690,"url":"https://itaipu.gov.br/wp-content/uploads/2024/12/RS-2014-Port-2.pdf","page":17},
+    {"year":2007,"gwh":90620,"url":"https://itaipu.gov.br/wp-content/uploads/2024/12/RS-2014-Port-2.pdf","page":17},
+    {"year":2008,"gwh":94685,"url":"https://itaipu.gov.br/wp-content/uploads/2024/12/RS-2014-Port-2.pdf","page":17},
+    {"year":2009,"gwh":91652,"url":"https://itaipu.gov.br/wp-content/uploads/2024/12/RS-2014-Port-2.pdf","page":17},
+    {"year":2010,"gwh":85970,"url":"https://itaipu.gov.br/wp-content/uploads/2024/12/RS-2014-Port-2.pdf","page":17},
+    {"year":2011,"gwh":92245.5,"url":"https://www.itaipu.gov.py/sites/default/files/af_df/RelAnual-2011.pdf","page":13},
+    {"year":2012,"gwh":98287,"url":"https://itaipu.gov.br/wp-content/uploads/2024/12/RS-2014-Port-2.pdf","page":17},
+    {"year":2013,"gwh":98630,"url":"https://itaipu.gov.br/wp-content/uploads/2024/12/RS-2014-Port-2.pdf","page":17},
+    {"year":2014,"gwh":87795,"url":"https://itaipu.gov.br/wp-content/uploads/2024/12/RS-2014-Port-2.pdf","page":17},
+    {"year":2015,"gwh":89215,"url":"https://www.itaipu.gov.py/sites/default/files/af_df/Memoria%20Anual%202015.pdf","page":15},
+    {"year":2017,"gwh":96387,"url":"https://www.itaipu.gov.py/sites/default/files/af_df/Memoria%20Anual%202017.pdf","page":18},
+    {"year":2018,"gwh":96586,"url":"https://www.itaipu.gov.py/sites/default/files/af_df/Memoria%20Anual%202018.pdf","page":null},
+    {"year":2019,"gwh":79445,"url":"https://www.itaipu.gov.py/noticias/publicacoes/2019-2","page":20}
+  ]
+}

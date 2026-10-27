@@ -1,0 +1,34 @@
+﻿metric_code,name,unit,definition,source,grain,class
+PY_CONSUMPTION_TREND,Consumo anual Paraguay,MWh,Suma/valor anual oficial de energia SIN.,ANDE,year,Primary KPI
+PY_DEMAND_PEAK,Demanda maxima Paraguay,MW,Maximo de potencia del periodo.,ANDE,event/month/year,Primary KPI
+ITAIPU_DEPENDENCY,Dependencia Itaipu,percent,Energia Itaipu->PY / energia total abastecida PY * 100.,ANDE/ONS/ITAIPU,hour/day/month/year,Derived
+YACYRETA_DEPENDENCY,Dependencia Yacyreta,percent,Energia Yacyreta->PY / energia total abastecida PY * 100.,ANDE/EBY,hour/day/month/year,Derived
+ACARAY_SHARE,Participacion Acaray,percent,Energia Acaray->PY / energia total abastecida PY * 100.,ANDE,month/year,Derived
+TRANSMISSION_LOSS_RATE,Perdidas de transmision / energia SIN,percent,Perdidas transmision / energia SIN * 100.,ANDE,year,Derived; no equivale a perdidas totales ANDE
+EXPORT_INTENSITY,Intensidad exportadora ANDE,percent,Exportacion ANDE / energia bruta disponible * 100.,ANDE,year,Derived
+CESSION_UNIT_VALUE,Valor unitario cesion,USD/MWh,Compensacion efectiva / volumen cedido.,ITAIPU/EBY + derived,period,Mantener separado de precio de venta
+STRUCTURAL_UTILIZATION,Utilizacion estructural PY,percent,Demanda anual / referencia de energia estructural disponible * 100.,ANDE + EnergiaPY,year,Scenario metric
+ENERGY_EXHAUSTION_HORIZON,Horizonte 100% energia,year,Año en que demanda proyectada alcanza energia estructural disponible.,EnergiaPY derived,scenario,No es pronostico deterministico
+NORMAL_FOR_HOUR,Normal EnergiaPY para la hora,MW,"Mediana/promedio por hora, dia semana y mes sobre historico horario.",ONS/CAMMESA/ANDE,hour,Disponible tras backfill horario
+PRICE_GAP_CESSION_MARKET,Brecha cesion vs mercado,USD/MWh,Referencia mercado - compensacion unitaria de cesion.,Official + press reference,period,Contextual; no mezclar mercados/condiciones contractuales
+RESIDENTIAL_AVG_TARIFF,Tarifa media residencial ANDE,Gs/kWh,"Precio medio anual efectivamente abonado por clientes residenciales, según ANDE.",ANDE,year,Primary economic KPI
+NATIONAL_AVG_TARIFF,Tarifa media nacional ANDE,Gs/kWh,Precio medio anual del mercado nacional.,ANDE,year,Primary economic KPI
+DOMESTIC_EXPORT_PRICE_RATIO,Relación tarifa residencial / exportación ANDE,percent,Tarifa media residencial / tarifa media de exportación ANDE del mismo periodo * 100.,ANDE + EnergiaPY,year,Derived; no comparar con cesión binacional
+REAL_RESIDENTIAL_TARIFF,Tarifa residencial real,PYG constant/kWh,Tarifa media residencial deflactada por IPC BCP a año base definido.,ANDE + BCP,year,Derived; pendiente backfill IPC
+RESIDENTIAL_TARIFF_USD,Tarifa residencial equivalente,USD/MWh,Tarifa residencial Gs/kWh convertida con tipo de cambio BCP consistente del periodo.,ANDE + BCP,month/year,Derived; pendiente backfill FX
+FX_PYG_USD,Tipo de cambio USD/PYG,PYG/USD,Promedio anual para historicos; snapshot BCP para calculadoras actuales.,BCP + WDI/IMF,day/year,Macro
+INFLATION_YOY,Inflacion IPC,percent,Variacion porcentual del IPC.,BCP + WDI/IMF,month/year,Macro
+TARIFF_REAL_2025,Tarifa ANDE real 2025,Gs 2025/kWh,Tarifa nominal * IPC_2025 / IPC_periodo.,ANDE + BCP/WDI,year,Derived
+TARIFF_USD_MWH,Tarifa ANDE equivalente USD/MWh,USD/MWh,Tarifa nominal Gs/kWh * 1000 / FX promedio anual.,ANDE + BCP/WDI,year,Derived
+ENERGY_PRICE_AFFORDABILITY,Asequibilidad electrica,index,"Tarifa residencial respecto a ingreso/PIB per capita o salario, cuando esas series esten incorporadas.",ANDE + BCP/INE,year,Future derived
+RESIDENTIAL_KWH_PER_CUSTOMER,Residential billed use per customer,kWh/customer/month,Residential billed kWh / residential customers / 12.,ANDE,year,Citizenship/driver
+CUSTOMER_CATEGORY_ENERGY_SHARE,Energy share by customer category,percent,Category billed kWh / national billed subtotal.,ANDE,year,Demand composition
+GCIE_ENERGY_SHARE,Special intensive consumer energy share,percent,GCIE billed kWh / national billed subtotal.,ANDE,year,Demand driver
+ELECTRICITY_AFFORDABILITY_PROXY,Electricity affordability proxy,percent,Estimated representative electricity bill / household income; clearly label assumptions.,ANDE + INE,year,Citizenship derived
+HYDRO_ENERGY_CONTEXT,Hydro-energy context,index,Hydrology/reservoir/flow features linked to generation; model definition pending historical backfill.,EBY/ITAIPU/ONS,hour/day,Predictive driver
+ENSO_STATE,ENSO state/probability,percent / index,NOAA CPC RONI probability and strength context.,NOAA CPC,month/season,Climate driver
+DEMAND_MACRO_CONTEXT,Demand macro context,percent,IMAEP and sector growth used as exogenous demand features.,BCP,month,Demand driver
+GRID_CONTINUITY_DEP,DEP quality indicator,hours,Equivalent interruption duration weighted by affected power.,ANDE,season/year,Grid quality
+GRID_CONTINUITY_FEP,FEP quality indicator,interruptions_equivalent,Equivalent interruption frequency weighted by affected power.,ANDE,season/year,Grid quality
+DISTRIBUTION_LOSS_RATE,Distribution loss rate,percent,ANDE distribution losses.,ANDE,year/month,Grid efficiency
+AC_PENETRATION,Air conditioner penetration,percent,Dwellings with AC / occupied dwellings.,INE,census/year,Demand structural driver

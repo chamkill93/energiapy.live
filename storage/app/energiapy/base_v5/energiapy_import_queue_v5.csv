@@ -1,0 +1,27 @@
+﻿job_code,source_code,grain,url,priority,status,notes
+ONS_ITAIPU_HOURLY,ONS,hour,https://dados.ons.org.br/dataset/geracao_itaipu,HIGH,QUEUED,Backfill total/50Hz/60Hz/Paraguay/Brasil; key for live map.
+ONS_INTL_EXCHANGE,ONS,hour,https://dados.ons.org.br/dataset/intercambio-internacional,HIGH,QUEUED,International flows incl. Paraguay-Brasil/Acaray where published.
+CAMMESA_API,CAMMESA,variable,https://cammesaweb.cammesa.com/apiweb/,HIGH,QUEUED,Map API endpoints for SADI/Yacyreta/interconnection.
+CAMMESA_VARIABLES,CAMMESA,month/files,https://cammesaweb.cammesa.com/variables-relevantes-mem/,HIGH,QUEUED,Backfill historical files.
+ANDE_CURRENT_TARIFF,ANDE,tariff line,https://www.ande.gov.py/tarifas_vigentes.php,MEDIUM,QUEUED,Parse Pliego N21 and amendments.
+ANDE_GIS_TX,ANDE,GIS,https://www.ande.gov.py/,HIGH,QUEUED,Official geometry 500/220/66kV and substations.
+INE_GIS_BOUNDARIES,INE,GIS,https://geonode.ine.gov.py/,HIGH,QUEUED,Official Paraguay/departments geometry.
+ITAIPU_2003_2023_GENERATION,ITAIPU,year/month,https://www.itaipu.gov.py/,MEDIUM,QUEUED,Fill annual generation gap 2003-2023 from memories/open data.
+EBY_2012_CURRENT_MONTHLY,EBY,month,https://www.eby.gov.py/generacion-de-energia/,HIGH,QUEUED,Fill Yacyreta generation/destination after Jun-2012.
+ANDE_2019_CURRENT_BILLED_SECTOR,ANDE,year,https://www.ande.gov.py/finanzas.php,MEDIUM,QUEUED,Continue customer/sector billed energy series.
+HYDROLOGY_ITAIPU_EBY,ITAIPU/EBY,day/hour,official sites,LOW,QUEUED,"Affluence/reservoir/head for context/prediction, without mixing with energy actual."
+BCP_FX_HISTORICAL,BCP,day/month/year,https://www.bcp.gov.py/webapps/web/cotizacion/referencial-fluctuante/anual,HIGH,PARTIAL_LOADED_RECONCILE,Backfill WDI/IMF 1990-2025 ya cargado; falta reconciliar/replace con bruto BCP cuando el collector pueda ingerirlo.
+BCP_IPC_HISTORICAL,BCP,month/year,https://www.bcp.gov.py/es/web/institucional/indice-precios-al-consumidor-ipc,HIGH,PARTIAL_LOADED_RECONCILE,Backfill WDI/IMF 1990-2025 ya cargado; falta reconciliar/replace con bruto BCP cuando el collector pueda ingerirlo.
+BCP_GDP_HISTORICAL,BCP,year,https://www.bcp.gov.py/es/web/institucional/estadisticas1,MEDIUM,QUEUED,PIB total y por actividad para elasticidad demanda electrica-PIB.
+BCP_IMAEP_MONTHLY,BCP,month,https://www.bcp.gov.py/,MEDIUM,QUEUED,Actividad economica mensual para modelos de demanda de corto/mediano plazo.
+BCP_REER,BCP,month,https://www.bcp.gov.py/es/web/institucional/w/indice-de-precios-externos-e-indice-de-tipo-de-cambio-real-multilateral-1,LOW,QUEUED,Tipo de cambio real multilateral para analisis de competitividad/precio energia.
+BCP_IPP,BCP,month,https://www.bcp.gov.py/,LOW,QUEUED,Indice de precios del productor como contexto de costos industriales.
+V5-ONS-ITAIPU,ONS,hour,https://ons-aws-prod-opendata.s3.amazonaws.com/dataset/geracao_itaipu/GERACAO_ITAIPU.csv,P0,READY_PROD,Bulk binary direct URL verified but runtime blocked; Hostinger collector must ingest full historical file and deduplicate revisions.
+V5-ONS-INTL,ONS,hour,https://ons-aws-prod-opendata.s3.amazonaws.com/dataset/intercambio_internacional_ho/INTERCAMBIO_INTERNACIONAL_2026.csv,P0,READY_PROD,2026 direct CSV URL verified; discover and backfill annual 2000-current resources in production.
+V5-DMH-10MIN,DMH,10min,https://www.meteorologia.gov.py/temperatura-maxima/index.php,P1,COLLECTOR_NEEDED,Capture full automatic station temperature/precip; tag orientative.
+V5-NOAA-RONI-HIST,NOAA_CPC,month/season,https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/probabilities/,P1,BACKFILL_NEEDED,"Backfill full ONI/RONI 1950-current, current outlook already loaded."
+V5-BCP-IMAEP-HIST,BCP,month,https://www.bcp.gov.py/es/web/institucional/indicador-mensual-de-actividad-economica-del-paraguay-imaep,P1,BACKFILL_NEEDED,Latest June 2026 loaded; historical reports listed back to prior years.
+V5-INE-EPHC,INE,year/microdata,https://www.ine.gov.py/Publicaciones/Biblioteca/documento/308/Pobreza%20Monetaria_%20EPHC_2025_INE.pdf,P2,MICRODATA_BACKFILL,"Use EPHC microdata for median income, department and urban/rural affordability."
+V5-ANDE-DG,ANDE,month/year,https://www.ande.gov.py/interna.php?id=15312,P1,WATCH,Start series as soon as installed MW/users/injected MWh are published.
+V5-CAMMESA,CAMMESA,hour,https://cammesaweb.cammesa.com/,P0,ENDPOINT_DISCOVERY,Inspect official API/iframe datasource in production for Argentina/Yacyreta-relevant flows.
+V5-YRATO,ITAIPU,multi,https://hidroinformatica.itaipu.gov.py/yrato/,P1,API_DISCOVERY,Automate hydrology/meteorology upstream of Itaipu.

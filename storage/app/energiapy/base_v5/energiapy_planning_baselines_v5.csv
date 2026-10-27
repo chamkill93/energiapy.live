@@ -1,0 +1,5 @@
+﻿Metric,From year,To year,Value,Unit,Description,Source,Quality,Source URL
+NEW_USERS_TO_2030,2026,2030,383000,users,Projected new connections by 2030,ANDE,OFFICIAL_PLAN,https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf
+ELECTRIFICATION_TARGET_2028,2026,2028,100,percent,National electricity coverage target,ANDE,OFFICIAL_PLAN,https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf
+DISTRIBUTION_LOSS_TARGET_2028,2025,2028,15,percent,Distribution loss target,ANDE,OFFICIAL_PLAN,https://www.ande.gov.py/interna.php?id=15116
+DISTRIBUTED_GENERATION_REGULATION_ACTIVE,2026,2026,1,boolean,Law 7599/2025 regulated by Decree 6034 on 2026-05-19; quantitative public series not yet found,ANDE,OFFICIAL_LEGAL,https://www.ande.gov.py/interna.php?id=15312

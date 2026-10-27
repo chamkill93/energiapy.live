@@ -1,0 +1,112 @@
+{
+  "description": "Transcripción manual revisada de la Compilación Estadística ANDE 2003–2023, páginas 36 y 42.",
+  "reviewed_at": "2026-10-27",
+  "source_url": "https://www.ande.gov.py/finanzas/2.%20COMPILACION%20ESTADISTICA%202003-2023/ANDE%20-%20Compilacion%20Estadistica%202003-2023.pdf",
+  "reports": [
+    {
+      "year": 2003,
+      "customers": 976279,
+      "billed_kwh_per_capita": 773
+    },
+    {
+      "year": 2004,
+      "customers": 1007397,
+      "billed_kwh_per_capita": 780
+    },
+    {
+      "year": 2005,
+      "customers": 1006651,
+      "billed_kwh_per_capita": 820
+    },
+    {
+      "year": 2006,
+      "customers": 1072841,
+      "billed_kwh_per_capita": 872
+    },
+    {
+      "year": 2007,
+      "customers": 1082743,
+      "billed_kwh_per_capita": 934
+    },
+    {
+      "year": 2008,
+      "customers": 1131332,
+      "billed_kwh_per_capita": 984
+    },
+    {
+      "year": 2009,
+      "customers": 1159143,
+      "billed_kwh_per_capita": 1046
+    },
+    {
+      "year": 2010,
+      "customers": 1192701,
+      "billed_kwh_per_capita": 1096
+    },
+    {
+      "year": 2011,
+      "customers": 1226630,
+      "billed_kwh_per_capita": 1190
+    },
+    {
+      "year": 2012,
+      "customers": 1269801,
+      "billed_kwh_per_capita": 1273
+    },
+    {
+      "year": 2013,
+      "customers": 1303774,
+      "billed_kwh_per_capita": 1375
+    },
+    {
+      "year": 2014,
+      "customers": 1348192,
+      "billed_kwh_per_capita": 1471
+    },
+    {
+      "year": 2015,
+      "customers": 1472656,
+      "billed_kwh_per_capita": 1530
+    },
+    {
+      "year": 2016,
+      "customers": 1473480,
+      "billed_kwh_per_capita": 1571
+    },
+    {
+      "year": 2017,
+      "customers": 1355217,
+      "billed_kwh_per_capita": 1616
+    },
+    {
+      "year": 2018,
+      "customers": 1421167,
+      "billed_kwh_per_capita": 1726
+    },
+    {
+      "year": 2019,
+      "customers": 1469189,
+      "billed_kwh_per_capita": 1750
+    },
+    {
+      "year": 2020,
+      "customers": 1541730,
+      "billed_kwh_per_capita": 1849
+    },
+    {
+      "year": 2021,
+      "customers": 1556168,
+      "billed_kwh_per_capita": 1822
+    },
+    {
+      "year": 2022,
+      "customers": 1601130,
+      "billed_kwh_per_capita": 2420
+    },
+    {
+      "year": 2023,
+      "customers": 1583969,
+      "billed_kwh_per_capita": 2627
+    }
+  ]
+}

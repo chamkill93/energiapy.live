@@ -1,0 +1,18 @@
+{
+  "description": "Transcripción manual contrastada con los informes preliminares mensuales del Viceministerio de Minas y Energía, elaborados con partes preliminares de ANDE. Valores del Sistema Interconectado Nacional (SIN), no Sistema Interconectado total (SI).",
+  "reviewed_at": "2026-10-27",
+  "reports": [
+    {"month": 1, "2024": 2554752, "2025": 2834561, "url": "https://minasyenergia.mopc.gov.py/pdf/electrico/2025/1%20Informe%20Preliminar%20Enero%20-%202025.pdf"},
+    {"month": 2, "2024": 2529559, "2025": 2724707, "url": "https://minasyenergia.mopc.gov.py/pdf/electrico/2025/2%20Informe%20Preliminar%20Febrero%20-%202025.pdf"},
+    {"month": 3, "2024": 2623970, "2025": 2576387, "url": "https://minasyenergia.mopc.gov.py/pdf/electrico/2025/3%20Informe%20Preliminar%20Marzo%20-%202025.pdf"},
+    {"month": 4, "2024": 2162749, "2025": 1952968, "url": "https://minasyenergia.mopc.gov.py/pdf/electrico/2025/4%20Informe%20Preliminar%20Abril%20-%202025_REV01.pdf"},
+    {"month": 5, "2024": 1856729, "2025": 2129334, "url": "https://minasyenergia.mopc.gov.py/pdf/electrico/2025/5%20Informe%20Preliminar%20Mayo%20-%202025_rev02.pdf"},
+    {"month": 6, "2024": 1761450, "2025": 2067457, "url": "https://minasyenergia.mopc.gov.py/pdf/electrico/2025/6%20Informe%20Preliminar%20Junio%20-%202025.pdf"},
+    {"month": 7, "2024": 1842398, "2025": 2201517, "url": "https://minasyenergia.mopc.gov.py/pdf/electrico/2025/7%20Informe%20Preliminar%20Julio%20-%202025.pdf"},
+    {"month": 8, "2024": 1830783, "2025": 2244134, "url": "https://minasyenergia.mopc.gov.py/pdf/electrico/2025/8%20Informe%20Preliminar%20Agosto%20-%202025.pdf"},
+    {"month": 9, "2024": 1931593, "2025": 2376429, "url": "https://minasyenergia.mopc.gov.py/pdf/electrico/2025/9%20Informe%20Preliminar%20Setiembre%20-%202025_rev_final.pdf"},
+    {"month": 10, "2024": 2274630, "2025": 2529511, "url": "https://minasyenergia.mopc.gov.py/pdf/electrico/2025/10%20Informe%20Preliminar%20Octubre%20-%202025_REV01.pdf"},
+    {"month": 11, "2024": 2439086, "2025": 2727754, "url": "https://minasyenergia.mopc.gov.py/pdf/electrico/2025/11%20Informe%20Preliminar%20Octubre%20-%202025.pdf"},
+    {"month": 12, "2024": 2348388, "2025": 3055307, "url": "https://minasyenergia.mopc.gov.py/pdf/electrico/2025/12%20Informe%20Preliminar%20Diciembre%20-%202025%20Actualizado.pdf"}
+  ]
+}

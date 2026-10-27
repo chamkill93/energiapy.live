@@ -1,0 +1,13 @@
+{
+  "description": "Transcripción manual contrastada con las publicaciones oficiales de Itaipú. Valores publicados en GWh enteros.",
+  "reviewed_at": "2026-10-27",
+  "precise_generation": {"url": "https://www.itaipu.gov.py/noticias/energia/central-hidroelectrica-itaipu-registro-una-productividad-record-en-el-ano-2025", "published_at": null, "values_mwh": {"2024": 67088571, "2025": 72879287}},
+  "reports": [
+    {"year": 2020, "published_at": "2021-01-08", "supply_gwh": 15861, "generation_gwh": 76382, "url": "https://www.itaipu.gov.py/noticias/energia/durante-el-ano-2020-itaipu-suministro-15-861-gwh-de-energia-electrica-al-pais"},
+    {"year": 2021, "published_at": "2022-01-06", "supply_gwh": 15799, "generation_gwh": 66369, "url": "https://www.itaipu.gov.py/noticias/energia/itaipu-suministro-15-799-gwh-de-energia-electrica-al-paraguay-durante-el-ano-2021"},
+    {"year": 2022, "published_at": "2023-01-06", "supply_gwh": 16965, "generation_gwh": 69873, "url": "https://www.itaipu.gov.py/noticias/energia/itaipu-suministro-16-965-gwh-de-energia-electrica-al-paraguay-durante-el-ano-2022"},
+    {"year": 2023, "published_at": "2024-01-05", "supply_gwh": 19515, "generation_gwh": 83879, "url": "https://www.itaipu.gov.py/noticias/energia/itaipu-suministro-19-515-gwh-de-energia-electrica-al-pais-durante-el-2023"},
+    {"year": 2024, "published_at": "2025-01-09", "supply_gwh": 20383, "generation_gwh": 67088, "url": "https://www.itaipu.gov.py/noticias/energia/central-hidroelectrica-itaipu-suministro-20-383-gwh-de-energia-electrica-a-paraguay-en-el-2024"},
+    {"year": 2025, "published_at": "2026-01-09", "supply_gwh": 25768, "generation_gwh": 72879, "url": "https://www.itaipu.gov.py/noticias/energia/itaipu-suministro-25-768-gwh-de-energia-electrica-a-paraguay-en-el-2025"}
+  ]
+}

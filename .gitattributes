@@ -1,0 +1,14 @@
+* text=auto eol=lf
+
+# Conservar los bytes originales de los datos de referencia y sus checksums.
+storage/app/energiapy/** -text
+
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore

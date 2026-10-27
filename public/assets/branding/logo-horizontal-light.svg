@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 112" role="img" aria-label="EnergiaPY.live">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#45e47f"/><stop offset="1" stop-color="#2ea3ff"/></linearGradient></defs>
+<g transform="translate(10 10)"><circle cx="44" cy="44" r="34" fill="none" stroke="url(#g)" stroke-width="8" opacity=".95"/><path d="M50 0 20 49h24L35 88l38-53H49z" fill="#082033"/><path d="M7 37C24 16 43 9 71 11 58 30 38 41 7 37z" fill="#45e47f" opacity=".9"/></g>
+<text x="106" y="54" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="43" fill="#082033">EnergiaPY</text><text x="320" y="54" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="30" fill="#082033">.live</text>
+<text x="107" y="84" font-family="Inter,Arial,sans-serif" font-size="17" fill="#587185">La energía de Paraguay, en tiempo real</text></svg>

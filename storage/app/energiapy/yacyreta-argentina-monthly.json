@@ -1,0 +1,14 @@
+{
+  "value": 1624650.36,
+  "unit": "MWh",
+  "period_start": "2026-09-01",
+  "period_end": "2026-09-30",
+  "grain": "month",
+  "source": "CAMMESA",
+  "source_url": "https://cammesaweb.cammesa.com/estadistica-informe-sintesis-mem/",
+  "source_file": "hidro-binacional-cammesa.xlsx",
+  "sheet": "CENTRALES HI BINACIONALES",
+  "cell": "E138",
+  "checksum_sha256": "7e8d1ee5650b33fc27d826eafb42719065554dbb5e5ac42d9de931f0934d7b32",
+  "note": "Energia recibida YAC AR; planilla aportada por el usuario. Actualizacion manual."
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Transcripción del cuadro 1.1 del Resumen Estadístico de ANDE 2020–2024, revisada en el índice del documento oficial.",
+  "source_url": "https://www.ande.gov.py/finanzas/ANDE%20-%20Resumen%20Estad%C3%ADstico%202020%20-%202024.pdf",
+  "reviewed_at": "2026-10-27",
+  "year": 2024,
+  "unit": "MWh",
+  "total": 26258604,
+  "own_generation": 768198,
+  "binational_energy": 25490406
+}

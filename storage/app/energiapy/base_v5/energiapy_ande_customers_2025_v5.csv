@@ -1,0 +1,14 @@
+﻿year,category,billed_kwh,customers,kwh_per_customer_year,kwh_per_customer_month,share_of_national_subtotal_pct,source_url,quality_class
+2025,Residential,7425632545,1482966,5007.284,417.274,34.2466,https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf,OFFICIAL_AGGREGATE
+2025,Industrial,266595986,121,2203272.612,183606.051,1.2295,https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf,OFFICIAL_AGGREGATE
+2025,Other,6842117693,189767,36055.361,3004.613,31.5554,https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf,OFFICIAL_AGGREGATE
+2025,Government,442721865,7919,55906.284,4658.857,2.0418,https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf,OFFICIAL_AGGREGATE
+2025,Differential,101215024,107,945934.804,78827.9,0.4668,https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf,OFFICIAL_AGGREGATE
+2025,High Voltage,886324372,14,63308883.714,5275740.31,4.0877,https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf,OFFICIAL_AGGREGATE
+2025,Very High Voltage,253382351,4,63345587.75,5278798.979,1.1686,https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf,OFFICIAL_AGGREGATE
+2025,Special Intensive Consumers,5464852192,47,116273450.894,9689454.241,25.2036,https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf,OFFICIAL_AGGREGATE
+2025,National subtotal,21682842028,1680945,12899.198,1074.933,100.0,https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf,OFFICIAL_AGGREGATE
+2025,Export - ENARSA,113360874,1,113360874.0,9446739.5,0.5228,https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf,OFFICIAL_AGGREGATE
+2025,National + export subtotal,21796202902,1680946,12966.629,1080.552,,https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf,OFFICIAL_AGGREGATE
+2025,Public lighting,236466394,,,,,https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf,OFFICIAL_AGGREGATE
+2025,Total invoiced,22032669296,1680946,13107.303,1092.275,,https://www.ande.gov.py/finanzas/BAGP%202025%20ANDE.pdf,OFFICIAL_AGGREGATE

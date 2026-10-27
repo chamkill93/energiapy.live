@@ -1,0 +1,24 @@
+﻿metric_code,year,value,unit,description,source_code,quality_class,source_url
+HOUSEHOLD_AVAILABLE_INCOME_AVG,2025,6864000,PYG/month,Average monthly disposable household income,INE,OFFICIAL_SURVEY,https://www.ine.gov.py/Publicaciones/Biblioteca/documento/308/Pobreza%20Monetaria_%20EPHC_2025_INE.pdf
+HOUSEHOLD_LABOR_INCOME_AVG,2025,6394000,PYG/month,Average monthly household labor income,INE,OFFICIAL_SURVEY,https://www.ine.gov.py/Publicaciones/Biblioteca/documento/308/Pobreza%20Monetaria_%20EPHC_2025_INE.pdf
+HOUSEHOLD_AVAILABLE_INCOME_Q1,2025,2296000,PYG/month,Lowest income quintile household disposable income,INE,OFFICIAL_SURVEY,https://www.ine.gov.py/Publicaciones/Biblioteca/documento/308/Pobreza%20Monetaria_%20EPHC_2025_INE.pdf
+HOUSEHOLD_AVAILABLE_INCOME_Q2,2025,3680000,PYG/month,Second quintile,INE,OFFICIAL_SURVEY,https://www.ine.gov.py/Publicaciones/Biblioteca/documento/308/Pobreza%20Monetaria_%20EPHC_2025_INE.pdf
+HOUSEHOLD_AVAILABLE_INCOME_Q3,2025,5032000,PYG/month,Third quintile,INE,OFFICIAL_SURVEY,https://www.ine.gov.py/Publicaciones/Biblioteca/documento/308/Pobreza%20Monetaria_%20EPHC_2025_INE.pdf
+HOUSEHOLD_AVAILABLE_INCOME_Q4,2025,6724000,PYG/month,Fourth quintile,INE,OFFICIAL_SURVEY,https://www.ine.gov.py/Publicaciones/Biblioteca/documento/308/Pobreza%20Monetaria_%20EPHC_2025_INE.pdf
+HOUSEHOLD_AVAILABLE_INCOME_Q5,2025,13155000,PYG/month,Highest quintile,INE,OFFICIAL_SURVEY,https://www.ine.gov.py/Publicaciones/Biblioteca/documento/308/Pobreza%20Monetaria_%20EPHC_2025_INE.pdf
+POPULATION_CENSUS,2022,6109903,persons,Census population,INE,OFFICIAL_CENSUS,https://www.ine.gov.py/censo2022/documentos/Tr%C3%ADptico%20Resultados%20Finales_web.pdf
+OCCUPIED_PRIVATE_DWELLINGS,2022,1749336,dwellings,Occupied private dwellings,INE,OFFICIAL_CENSUS,https://www.ine.gov.py/censo2022/documentos/Tr%C3%ADptico%20Resultados%20Finales_web.pdf
+DWELLINGS_ELECTRICITY_ACCESS,2022,1725111,dwellings,Dwellings with electric power access,INE,OFFICIAL_CENSUS,https://www.ine.gov.py/censo2022/documentos/Tr%C3%ADptico%20Resultados%20Finales_web.pdf
+DWELLINGS_ELECTRICITY_ACCESS_RATE,2022,98.6,percent,Share of occupied private dwellings with electricity,INE,OFFICIAL_CENSUS,https://www.ine.gov.py/censo2022/documentos/Tr%C3%ADptico%20Resultados%20Finales_web.pdf
+DWELLINGS_AUTOMATIC_WASHER,2022,1106542,dwellings,Automatic washing machine,INE,OFFICIAL_CENSUS,https://www.ine.gov.py/censo2022/documentos/Tr%C3%ADptico%20Resultados%20Finales_web.pdf
+DWELLINGS_AUTOMATIC_WASHER_RATE,2022,63.3,percent,Automatic washing machine penetration,INE,OFFICIAL_CENSUS,https://www.ine.gov.py/censo2022/documentos/Tr%C3%ADptico%20Resultados%20Finales_web.pdf
+DWELLINGS_DRYER,2022,611264,dwellings,Clothes dryer,INE,OFFICIAL_CENSUS,https://www.ine.gov.py/censo2022/documentos/Tr%C3%ADptico%20Resultados%20Finales_web.pdf
+DWELLINGS_DRYER_RATE,2022,34.9,percent,Clothes dryer penetration,INE,OFFICIAL_CENSUS,https://www.ine.gov.py/censo2022/documentos/Tr%C3%ADptico%20Resultados%20Finales_web.pdf
+DWELLINGS_ELECTRIC_SHOWER,2022,1155448,dwellings,Electric shower,INE,OFFICIAL_CENSUS,https://www.ine.gov.py/censo2022/documentos/Tr%C3%ADptico%20Resultados%20Finales_web.pdf
+DWELLINGS_ELECTRIC_SHOWER_RATE,2022,66.1,percent,Electric shower penetration,INE,OFFICIAL_CENSUS,https://www.ine.gov.py/censo2022/documentos/Tr%C3%ADptico%20Resultados%20Finales_web.pdf
+DWELLINGS_WATER_HEATER,2022,354102,dwellings,Electric/other water heater (termocalefon category),INE,OFFICIAL_CENSUS,https://www.ine.gov.py/censo2022/documentos/Tr%C3%ADptico%20Resultados%20Finales_web.pdf
+DWELLINGS_WATER_HEATER_RATE,2022,20.2,percent,Water heater penetration,INE,OFFICIAL_CENSUS,https://www.ine.gov.py/censo2022/documentos/Tr%C3%ADptico%20Resultados%20Finales_web.pdf
+DWELLINGS_MICROWAVE,2022,625998,dwellings,Microwave,INE,OFFICIAL_CENSUS,https://www.ine.gov.py/censo2022/documentos/Tr%C3%ADptico%20Resultados%20Finales_web.pdf
+DWELLINGS_MICROWAVE_RATE,2022,35.8,percent,Microwave penetration,INE,OFFICIAL_CENSUS,https://www.ine.gov.py/censo2022/documentos/Tr%C3%ADptico%20Resultados%20Finales_web.pdf
+DWELLINGS_AIR_CONDITIONER,2022,930301,dwellings,Air conditioner,INE,OFFICIAL_CENSUS,https://www.ine.gov.py/censo2022/documentos/Tr%C3%ADptico%20Resultados%20Finales_web.pdf
+DWELLINGS_AIR_CONDITIONER_RATE,2022,53.2,percent,Air-conditioner penetration,INE,OFFICIAL_CENSUS,https://www.ine.gov.py/censo2022/documentos/Tr%C3%ADptico%20Resultados%20Finales_web.pdf

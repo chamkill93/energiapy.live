@@ -1,0 +1,30 @@
+{
+  "crs": "EPSG:4326",
+  "note": "Reference coordinates, not power-system topology. Verify against official GIS before final production placement.",
+  "features": [
+    {
+      "code": "ITAIPU",
+      "name": "Central Hidroeléctrica Itaipú",
+      "lat": -25.40778,
+      "lon": -54.59,
+      "quality": "PUBLIC_REFERENCE_GIS",
+      "location_source_url": "https://www.wikidata.org/wiki/Q244169"
+    },
+    {
+      "code": "YACYRETA",
+      "name": "Central Hidroeléctrica Yacyretá",
+      "lat": -27.48281,
+      "lon": -56.73581,
+      "quality": "PUBLIC_REFERENCE_GIS",
+      "location_source_url": "https://www.wikidata.org/wiki/Q1432818"
+    },
+    {
+      "code": "ACARAY",
+      "name": "Central Hidroeléctrica Acaray",
+      "lat": -25.45944,
+      "lon": -54.62917,
+      "quality": "PUBLIC_REFERENCE_GIS",
+      "location_source_url": "https://www.wikidata.org/wiki/Q3433454"
+    }
+  ]
+}

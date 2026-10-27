@@ -1,0 +1,26 @@
+﻿dataset,source_start,source_end,loaded_start,loaded_end,status,notes
+ANDE billed market,1983,2018,1983,2018,loaded/revised,Billed by sector + export; later categories require continuation from newer documents
+ANDE SIN gross consumption/demand,2003,2026,2003,2026-05 + events,loaded,Annual through 2025; monthly Jan-May 2026 currently in seed
+ANDE tariff averages,1990,2024,1990,2024 + current tariff bands,loaded,Tarifa media oficial 1990-2024; Pliego 21 residencial/social vigente cargado. 2025 anual pendiente; proxy provisional en summary.
+ANDE transmission/distribution,2003,2023,2003,2023,loaded,GIS geometry of individual lines/substations pending
+Acaray interconnection/export history,1969,current,1969 contract marker,2025 export totals,partial,Detailed hourly plant output not public in seed
+Itaipu generation,1984,current,1984,2002 + 2018-20 supply + 2024-25 generation,partial,ONS hourly backfill will fill major gap
+Itaipu royalties,1989,current,1989,2026-08 partial,loaded,Annual cash series + current YTD
+Itaipu cession compensation,2013,current,2013,2026-08 partial,partial,2019 exact cash cession omitted until source-specific verification
+Yacyreta generation/destination,1994,current,1994-08,2012-06 + 2020,partial,Need later monthly backfill/API/public reports
+Yacyreta economic/legal,1973,current,1973 legal,2025 contract + 2024 payments,partial,Need systematic annual compensation/royalties series
+ONS Itaipu hourly,dataset availability,current,,,queued,Official bulk dataset identified; load on server
+ONS international exchange,dataset availability,current,,,queued,Official bulk dataset identified; load on server
+CAMMESA SADI/flows,historical/current,current,,,queued,API + monthly Variables Relevantes identified
+BCP FX / IPC for tariff normalization,1950 IPC / FX historical,current,1990,2025 annual + 2026 current snapshots,loaded_provisional,WDI/IMF annual backfill 1990-2025 + BCP 2026 current. Raw BCP historical reconciliation remains required.
+Tariff normalization real/USD,1990,2025,1990,2025,loaded,All canonical ANDE PYG/kWh tariffs converted to real-2025 PYG/kWh and USD/MWh using annual macro layer.
+ANDE customer categories 2025,2025,2025,2025,2025,loaded,Billed kWh + user counts + derived kWh/user and shares.
+ANDE losses and continuity,2015/current,current,2024/25,2025 + targets,loaded/current-baseline,National loss + Metropolitan DEP/FEP; deeper regional series still desirable.
+Itaipu current-year operations,2026,current,2026-01,2026-08,loaded,Jan-Aug production/supply and availability plus derived equivalent average power.
+Yacyreta current hydrology/power,current,current,2026-09-10,2026-09-11,loaded/current-baseline,Current operational/hydrological snapshot; exact homepage power timestamp unavailable.
+BCP IMAEP contextual features,historical,current,2026-01,2026-06,loaded-current,Latest verified numeric report June 2026; historical monthly backfill can follow.
+INE household income,EPHC historical,2025,2025,2025,loaded-baseline,2025 aggregate income and quintiles; microdata not yet fully backfilled.
+INE household/equipment census,2002/2012/2022,2022,2022,2022,loaded-baseline,Electricity access and energy-relevant appliance penetration.
+NOAA ENSO/RONI outlook,1950/current,current,2026-09 issue,9 seasons,loaded-current,September 2026 outlook; full historical ONI/RONI backfill remains optional/high value.
+DMH automatic stations,current,current,2026-09-10,2026-09-10 snapshot,partial-current,Orientative web data; production collector should store full 10-min series.
+Distributed generation,2026,current,regulatory,quantitative pending,framework-loaded,Legal framework active; public installed MW/user series not found.

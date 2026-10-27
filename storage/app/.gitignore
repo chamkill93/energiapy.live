@@ -1,0 +1,18 @@
+*
+!private/
+!public/
+!.gitignore
+
+# Fuentes públicas necesarias para reconstruir el histórico.
+!energiapy/
+!energiapy/**
+energiapy/endpoint-health.json
+energiapy/base_v5/*.sqlite*
+energiapy/raw/**
+!energiapy/raw/ONS_ITAIPU_HOURLY/
+!energiapy/raw/ONS_ITAIPU_HOURLY/df8f301d92f11f905b58879ed8c46757012b94ae172bae48421d6cf1521eb265.txt
+
+# Cartografía reducida usada por la aplicación; no se versionan archivos originales enormes.
+!gis/
+!gis/**
+gis/raw/**

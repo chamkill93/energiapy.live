@@ -1,0 +1,15 @@
+﻿ID,Fecha,Serie,Valor,Unidad,Fuente,Calidad,URL,Notas
+M2026-001,2026-08-31,CPI_MONTHLY_INFLATION,0,percent,BCP,OFFICIAL_MEASURED,https://www.bcp.gov.py/web/institucional/w/informe-de-inflaci%C3%B3n-agosto-2026,Inflacion mensual IPC agosto 2026.
+M2026-002,2026-08-31,CPI_YTD_INFLATION,1.8,percent,BCP,OFFICIAL_MEASURED,https://www.bcp.gov.py/web/institucional/w/informe-de-inflaci%C3%B3n-agosto-2026,Inflacion acumulada enero-agosto 2026.
+M2026-003,2026-08-31,CPI_YOY_INFLATION,1.5,percent,BCP,OFFICIAL_MEASURED,https://www.bcp.gov.py/web/institucional/w/informe-de-inflaci%C3%B3n-agosto-2026,Inflacion interanual agosto 2026.
+M2026-004,2026-09-10,FX_USD_PYG_REFERENCE,5933.25,PYG/USD,BCP,OFFICIAL_MEASURED,https://www.bcp.gov.py/webapps/web/cotizacion/monedas,Cotizacion referencial USD/PYG del 10-09-2026.
+M2026-005,2026-09-10,FX_BRL_PYG_REFERENCE,1165.78,PYG/BRL,BCP,OFFICIAL_MEASURED,https://www.bcp.gov.py/webapps/web/cotizacion/monedas,Cotizacion referencial BRL/PYG del 10-09-2026.
+M2026-006,2026-09-10,FX_ARS_PYG_REFERENCE,3.92,PYG/ARS,BCP,OFFICIAL_MEASURED,https://www.bcp.gov.py/webapps/web/cotizacion/monedas,Cotizacion referencial ARS/PYG del 10-09-2026.
+M2026-007,2026-08-07,EVE_INFLATION_2026,3.3,percent,BCP,OFFICIAL_SURVEY_EXPECTATION,https://www.bcp.gov.py/es/web/institucional/w/encuesta-de-expectativas-de-variables-econ%C3%B3micas-agosto-2026/-/categories/158845,Mediana EVE agosto 2026 para cierre 2026.
+M2026-008,2026-08-07,EVE_INFLATION_2027,3.5,percent,BCP,OFFICIAL_SURVEY_EXPECTATION,https://www.bcp.gov.py/es/web/institucional/w/encuesta-de-expectativas-de-variables-econ%C3%B3micas-agosto-2026/-/categories/158845,Mediana EVE agosto 2026 para cierre 2027.
+M2026-009,2026-08-07,EVE_FX_SEP_2026,6015,PYG/USD,BCP,OFFICIAL_SURVEY_EXPECTATION,https://www.bcp.gov.py/es/web/institucional/w/encuesta-de-expectativas-de-variables-econ%C3%B3micas-agosto-2026/-/categories/158845,Mediana EVE para septiembre 2026.
+M2026-010,2026-08-07,EVE_FX_EOY_2026,6150,PYG/USD,BCP,OFFICIAL_SURVEY_EXPECTATION,https://www.bcp.gov.py/es/web/institucional/w/encuesta-de-expectativas-de-variables-econ%C3%B3micas-agosto-2026/-/categories/158845,Mediana EVE para cierre 2026.
+M2026-011,2026-08-07,EVE_FX_EOY_2027,6400,PYG/USD,BCP,OFFICIAL_SURVEY_EXPECTATION,https://www.bcp.gov.py/es/web/institucional/w/encuesta-de-expectativas-de-variables-econ%C3%B3micas-agosto-2026/-/categories/158845,Mediana EVE para cierre 2027.
+M2026-012,2026-08-07,EVE_GDP_GROWTH_2026,4.3,percent,BCP,OFFICIAL_SURVEY_EXPECTATION,https://www.bcp.gov.py/es/web/institucional/w/encuesta-de-expectativas-de-variables-econ%C3%B3micas-agosto-2026/-/categories/158845,Mediana EVE crecimiento PIB 2026.
+M2026-013,2026-08-07,EVE_GDP_GROWTH_2027,4,percent,BCP,OFFICIAL_SURVEY_EXPECTATION,https://www.bcp.gov.py/es/web/institucional/w/encuesta-de-expectativas-de-variables-econ%C3%B3micas-agosto-2026/-/categories/158845,Mediana EVE crecimiento PIB 2027.
+M2026-014,2026-08-07,EVE_TPM_EOY_2026,5.5,percent,BCP,OFFICIAL_SURVEY_EXPECTATION,https://www.bcp.gov.py/es/web/institucional/w/encuesta-de-expectativas-de-variables-econ%C3%B3micas-agosto-2026/-/categories/158845,Mediana EVE TPM cierre 2026.
